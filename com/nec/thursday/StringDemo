@@ -1,0 +1,32 @@
+package com.nec.string;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		
+		String name1 = "Ramu";
+		String name3 = "Ramu";
+		
+		if(name1==name3) {
+			System.out.println("True");
+		}
+		else {
+			System.out.println("False");
+		}
+		
+		String name2 = new String("Ramu");
+		String name4 = new String("Ramu");
+		
+		if(name2 ==name4) {
+			System.out.println(" from NEW True");
+		}
+		else {
+			System.out.println("from NEW False");
+		}
+		
+		
+		
+		
+	}
+
+}
