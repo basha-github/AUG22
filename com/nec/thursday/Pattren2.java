@@ -1,16 +1,14 @@
 package com.nec.thursday;
 
-public class Pattren1 {
+public class Pattren2 {
 
 	public static void main(String[] args) {
 		/*
 		 * 
-		 * * * * *
-		 *       *
-		 *       *
-		 *       *
-		 *       *
-		 * * * * * 
+		 * 1
+		 *2  2
+		 *3 3 3
+		 *4 4 4 4
 		 */
 		for(int r=1,b=25;r<=4;r++) {
 			for(int k=1;k<=b;k++) {
